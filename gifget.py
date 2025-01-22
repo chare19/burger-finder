@@ -4,7 +4,7 @@ class GetGif:
 
     def __init__(self):
         self.params = {
-            "api_key": "lcFTds1jFP1g7edgtdVjWsmqnvvFr7iI",
+            "api_key": "YOUR GIPHY API KEY",
         }
         self.gif_url = "https://api.giphy.com/v1/gifs/random"
 
