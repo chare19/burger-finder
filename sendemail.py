@@ -4,9 +4,9 @@ import gifget
 class CreateMail:
 
     def __init__(self):
-        self.from_email = "cam.python.test@gmail.com"
-        self.to_email = "kaitbabin@gmail.com"
-        self.password = "zyvnmqcsbkgxqoao"
+        self.from_email = "FROM EMAIL ADDRESS"
+        self.to_email = "TO EMAIL ADDRESS"
+        self.password = "'FROM EMAIL' PASSWORD - CHECK WITH YOUR MAIL SERVICE"
 
 
     def sendmail(self, condition):
@@ -26,7 +26,7 @@ class CreateMail:
                 from_addr=self.from_email,
                 to_addrs=self.to_email,
                 msg="Subject:🍔 Monday Portabella Watch 👀\n\n"
-                    f"Good morning Kait, happy Monday!\n\n"
+                    f"Good morning PERSON NAME, happy Monday!\n\n"
                     f"{message}\n\n"
                     f"{link}\n\n"
                     f"{confirm}\n\n"
